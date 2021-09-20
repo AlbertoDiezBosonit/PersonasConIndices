@@ -12,7 +12,7 @@ public class Controlador1 {
 
     @PostMapping("/addPersona")
     public Persona addPersona(@RequestBody Persona persona ){
-        personas.addPersona(persona);
+        personas.addPersona(persona) ;
         return  persona;
     }
 
